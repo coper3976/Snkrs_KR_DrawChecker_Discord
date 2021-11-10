@@ -30,10 +30,6 @@ Snkrs_KR-DrawChecker for README.md
 ```pyinstaller -F --add-binary "C:\Users\user\Desktop\chromedriver\chromedriver.exe;." DrawChecker.py```를<br>
 *(본인의 파이썬 코드 파일 위치로 지정해야함)* 터미널로 한번 실행해주면 exe파일로 추출된다.  
 
-## 주의사항
-### - **반드시 크롬 드라이버와 코드 또는 exe파일은 같은 위치에 있어야함.** 
-### - **위의 코드 또는 프로그램 사용으로 인한 사용자의 불이익은 사용자에게 있으며 본인은 책임지지 않음.**
-### - **무단 재배포 금지.**
 
 
 
