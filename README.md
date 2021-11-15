@@ -30,4 +30,4 @@ Selenium, Chromedriver를 이용한<br>
 ```pyinstaller 모듈을 사용하여 exe 파일 추출 및 실행```<br>
 
 ## 실행 결과
-<img src="https://github.com/coper3976/SnkrsKR_DrawChecker/blob/main/%EC%8B%A4%ED%96%89%20%EA%B2%B0%EA%B3%BC.png">
+<img src="https://github.com/coper3976/Snkrs_KR_DrawChecker_Discord/blob/main/%EC%8B%A4%ED%96%89%20%EA%B2%B0%EA%B3%BC.png">
