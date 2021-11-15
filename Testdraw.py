@@ -115,61 +115,36 @@ def sendID2():
     xpath2 = driver.find_element_by_xpath('//*[@id="j_password"]')
     xpath2.send_keys("")
 
+    
+print("------------------Start Parsing----------")
 
-if __name__ == "__main__":
+driver = webdriver.Chrome(r'./chromedriver', options=options)
 
-    t = datetime.today().strftime("%Y%m%d")
-    todaytime = int(t)
+###############################################################################
+print("-----------------계정1--------------------------")
 
-    # with open(r"C:\Users\user\Desktop\chromedriver\cdkey.txt") as file:
-    #     lines = file.read()
-    #     print(lines)
+driver.get('https://www.nike.com/kr/ko_kr/account/theDrawList')
 
-    cdkey = input('Input your Key : ')
-    keyCheck = False
+sendID1()
+loginclick()
+time.sleep(1)
+discord_alert()
+parsing()
+time.sleep(2)
 
-    if cdkey == 'dd':
-        keyCheck= True
-
-    elif todaytime >= 20211120 and todaytime <= 20211121:
-        if cdkey == '6655-asw2-wq2d-4444':
-            keyCheck = True
-
-    if keyCheck == False:
-        exit()
-        
-
-    print("Login Success!")
-
-    print("------------------Start Parsing----------")
-
-    driver = webdriver.Chrome(r'./chromedriver', options=options)
-
-    ###############################################################################
-    print("-----------------계정1--------------------------")
-
-    driver.get('https://www.nike.com/kr/ko_kr/account/theDrawList')
-
-    sendID1()
-    loginclick()
-    time.sleep(1)
-    discord_alert()
-    parsing()
-    time.sleep(4)
-
-    driver.get('https://www.nike.com/kr/ko_kr/logout')
+driver.get('https://www.nike.com/kr/ko_kr/logout')
 
 
-    print("-----------------계정2--------------------------")
+print("-----------------계정2--------------------------")
 
-    driver.get('https://www.nike.com/kr/ko_kr/account/theDrawList')
+driver.get('https://www.nike.com/kr/ko_kr/account/theDrawList')
 
-    sendID2()
-    loginclick()
-    time.sleep(1)
-    discord_alert()
-    parsing()
-    time.sleep(4)
+sendID2()
+loginclick()
+time.sleep(1)
+discord_alert()
+parsing()
+time.sleep(2)
 
-    driver.quit()
-    os.system('pause')
+driver.quit()
+os.system('pause')
