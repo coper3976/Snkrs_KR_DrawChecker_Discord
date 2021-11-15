@@ -25,9 +25,13 @@ Selenium, Chromedriver를 이용한<br>
 ```pip install 모듈명```을 파이썬 터미널을 통해 다운로드 한다.<br>
 ### 3. 계정 정보 입력
 ```SendID```변수에 사용할 계정의 아이디와 비밀번호를 입력한다.<br> 
-### 4. 실행파일 만들기
+### 4. 디스코드 웹 토큰 설정
+```discord_webhook = ''```변수에 디스코드 웹훅 토큰을 입력한다.<br> 
+### 5. 실행파일 만들기
 ```pyinstaller 모듈을 사용하여 exe 파일 추출 및 실행```<br>
 
+## 실행 결과
+<img src="https://github.com/coper3976/hoopcity_crawler/blob/main/%EC%8B%A4%ED%96%89%20%EA%B2%B0%EA%B3%BC.png">
 
 
 
