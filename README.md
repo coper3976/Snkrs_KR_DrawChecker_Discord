@@ -1,21 +1,20 @@
-# Snkrs_KR-DrawChecker
-
-Snkrs_KR-DrawChecker for README.md
+# Snkrs_KR_DrawChecker_Discord
+나이키 코리아 드로우 결과 디스코드 알림 프로그램
 
 ## 개요
 Selenium, Chromedriver를 이용한<br> 
-나이키 코리아 드로우 응모결과 확인 프로그램.
+나이키 코리아 드로우 응모결과 디스코드 알림 프로그램.
 
 ## 실행 방법
-업로드한 실행 파일을 실행하거나, 소스 코드를 내려받아 파이썬으로 실행한다.
+정보를 입력 후, 소스 코드를 내려받아 실행한다.
  
 ## 실행 파일 사용시 
-```DrawChecker.exe```파일 실행<br>
+```pyinstaller```패키징 후 실행<br>
  
 ### 실행 전 준비 
 * 본인의 크롬 브라우저의 버전과 맞는 크롬 드라이버 다운로드<br>
   - [크롬 드라이버 다운로드 링크](https://chromedriver.chromium.org/downloads)  
-* 크롬 드라이버를```Testdraw.py```,```discord_hooks.py```,```exe``` 폴더 내에 다운로드 한다.
+* 크롬 드라이버를```Testdraw.py```,```discord_hooks.py```,```exe```와 같은 폴더 내에 다운로드 한다.
 * ```Testdraw.py```실행.
 
 ## 실행 순서
@@ -31,7 +30,4 @@ Selenium, Chromedriver를 이용한<br>
 ```pyinstaller 모듈을 사용하여 exe 파일 추출 및 실행```<br>
 
 ## 실행 결과
-<img src="https://github.com/coper3976/hoopcity_crawler/blob/main/%EC%8B%A4%ED%96%89%20%EA%B2%B0%EA%B3%BC.png">
-
-
-
+<img src="https://github.com/coper3976/SnkrsKR_DrawChecker/blob/main/%EC%8B%A4%ED%96%89%20%EA%B2%B0%EA%B3%BC.png">
