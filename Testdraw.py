@@ -94,6 +94,8 @@ def discord_alert():
             if result in "당첨":
                 send_embed(name, size, result, img_link, ID)
                 send_resultalert(everyone)
+            elif result in "미당첨" :
+                send_embed(name, size, result, img_link, ID)
 
 def loginclick() :
         driver.find_element_by_xpath('/html/body/section/section/div/div/div[2]/div/div[2]/div/button').click()
