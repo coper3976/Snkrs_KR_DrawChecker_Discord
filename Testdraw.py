@@ -134,7 +134,7 @@ time.sleep(2)
 
 driver.get('https://www.nike.com/kr/ko_kr/logout')
 
-
+###############################################################################
 print("-----------------계정2--------------------------")
 
 driver.get('https://www.nike.com/kr/ko_kr/account/theDrawList')
